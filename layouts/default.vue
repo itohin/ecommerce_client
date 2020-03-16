@@ -7,10 +7,10 @@
 
 <script>
 
-  import Navigation from '@/layouts/partials/Navigation';
+  import Navigation from '@/layouts/partials/Navigation'
 
   export default {
-      comments: {
+      components: {
           Navigation
       }
   }

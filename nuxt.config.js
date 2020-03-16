@@ -14,7 +14,16 @@ module.exports = {
     ]
   },
 
-  css: [
+  modules: [
+      '@nuxtjs/axios'
+  ],
+
+  axios: {
+      baseURL: 'http://ecart.test/api'
+  },
+
+
+    css: [
     '~assets/styles/app.scss'
   ],
 
