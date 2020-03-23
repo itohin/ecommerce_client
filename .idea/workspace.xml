@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac113cf3-cbdd-4263-bc7c-4b82ddae34e5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cart/CartOverView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/cart/CartOverView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/cart/CartOverviewProduct.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/cart/CartOverviewProduct.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/cart/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/cart.js" afterDir="false" />
     </list>
@@ -39,20 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartOverView.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CartOverView.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/cart/CartOverView.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="364">
               <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartOverviewProduct.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CartOverviewProduct.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/cart/CartOverviewProduct.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+            <state relative-caret-position="156">
+              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -60,8 +60,8 @@
       <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store/cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="1534">
+              <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -69,8 +69,8 @@
       <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/cart/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="594">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -96,10 +96,10 @@
         <option value="$PROJECT_DIR$/pages/auth/signin.vue" />
         <option value="$PROJECT_DIR$/store/index.js" />
         <option value="$PROJECT_DIR$/layouts/partials/Navigation.vue" />
-        <option value="$PROJECT_DIR$/components/cart/CartOverviewProduct.vue" />
-        <option value="$PROJECT_DIR$/pages/cart/index.vue" />
-        <option value="$PROJECT_DIR$/store/cart.js" />
         <option value="$PROJECT_DIR$/components/cart/CartOverView.vue" />
+        <option value="$PROJECT_DIR$/store/cart.js" />
+        <option value="$PROJECT_DIR$/pages/cart/index.vue" />
+        <option value="$PROJECT_DIR$/components/cart/CartOverviewProduct.vue" />
       </list>
     </option>
   </component>
@@ -130,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +169,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,12 +221,14 @@
       <workItem from="1584882926546" duration="3393000" />
       <workItem from="1584957152989" duration="1069000" />
       <workItem from="1584959424434" duration="544000" />
-      <workItem from="1584961431394" duration="388000" />
+      <workItem from="1584961431394" duration="615000" />
+      <workItem from="1584976273306" duration="203000" />
+      <workItem from="1584976675882" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21183000" />
+    <option name="totallyTimeSpent" value="21642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="960" extended-state="0" />
@@ -235,16 +237,16 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21940105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20507812" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -582,31 +584,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/cart/CartOverviewProduct.vue">
+    <entry file="file://$PROJECT_DIR$/components/cart/CartOverView.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/cart/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="364">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/store/cart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="1534">
+          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/cart/CartOverView.vue">
+    <entry file="file://$PROJECT_DIR$/pages/cart/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="594">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/cart/CartOverviewProduct.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
         </state>
       </provider>
     </entry>
