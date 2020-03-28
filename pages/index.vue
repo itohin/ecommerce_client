@@ -10,6 +10,9 @@
 
 export default {
 
+    middleware: [
+        'redirectifGuest'
+    ]
 }
 </script>
 
