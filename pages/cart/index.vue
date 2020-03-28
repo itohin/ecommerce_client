@@ -12,9 +12,9 @@
                         Your cart is empty
                     </p>
 
-                    <a href="#" v-if="!empty" class="button is-fullwidth is-info is-medium">
+                    <nuxt-link :to="{ name: 'checkout' }" v-if="!empty" class="button is-fullwidth is-info is-medium">
                         Checkout
-                    </a>
+                    </nuxt-link>
                 </div>
             </div>
         </div>
