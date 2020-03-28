@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac113cf3-cbdd-4263-bc7c-4b82ddae34e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/checkout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/checkout/addresses/ShippingAddressSelector.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cart/CartOverView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/cart/CartOverView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cart/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShippingAddress.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShippingAddress.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="1846">
+              <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShippingAddressSelector.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddressSelector.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -79,6 +86,7 @@
         <option value="$PROJECT_DIR$/pages/cart/index.vue" />
         <option value="$PROJECT_DIR$/pages/checkout/index.vue" />
         <option value="$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue" />
+        <option value="$PROJECT_DIR$/components/checkout/addresses/ShippingAddressSelector.vue" />
       </list>
     </option>
   </component>
@@ -238,12 +246,12 @@
       <workItem from="1585257097106" duration="86000" />
       <workItem from="1585340284633" duration="478000" />
       <workItem from="1585376087896" duration="1074000" />
-      <workItem from="1585388429468" duration="2594000" />
+      <workItem from="1585388429468" duration="4440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27448000" />
+    <option name="totallyTimeSpent" value="29294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="960" extended-state="0" />
@@ -278,13 +286,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/layouts/partials/Navigation.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="93" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -627,8 +628,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="1846">
+          <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddressSelector.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
