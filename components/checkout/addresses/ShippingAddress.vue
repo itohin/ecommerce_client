@@ -61,6 +61,12 @@
             }
         },
 
+        watch: {
+            selectedAddress (address) {
+                this.$emit('input', address.id)
+            }
+        },
+
         components: {
             ShippingAddressSelector,
             ShippingAddressCreator

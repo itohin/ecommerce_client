@@ -3,8 +3,10 @@
         <div class="container is-fluid">
             <div class="columns">
                 <div class="column is-three-quarters">
+
                     <ShippingAddress
                         :addresses="addresses"
+                        v-model="form.address_id"
                     />
 
                     <article class="message">
@@ -19,9 +21,10 @@
                                 Shipping
                             </h1>
                             <div class="select is-fullwidth">
-                                <select>
-                                    <option>
-                                        Royal Mail 1st Class
+
+                                <select v-model="form.shipping_method_id">
+                                    <option v-for="shipping in shippingMethods" :key="shipping.id" :value="shipping.id">
+                                        {{ shipping.name }} ({{ shipping.price }})
                                     </option>
                                 </select>
                             </div>
@@ -90,7 +93,18 @@
 
         data () {
             return {
-                addresses: []
+                addresses: [],
+                form: {
+                    address_id: null,
+                    shipping_method_id: null
+                },
+                shippingMethods: []
+            }
+        },
+
+        watch: {
+            'form.address_id' (addressId) {
+                this.getShippingMethodsForAddress(addressId);
             }
         },
 
@@ -99,12 +113,20 @@
             ShippingAddress
         },
 
+        methods: {
+            async getShippingMethodsForAddress (addressId) {
+                let response = await this.$axios.$get(`addresses/${addressId}/shipping`)
+
+                this.shippingMethods = response.data;
+            }
+        },
+
         computed: {
             ...mapGetters({
                 total: 'cart/total',
                 products: 'cart/products',
                 empty: 'cart/empty'
-            })
+            }),
         },
 
         async asyncData({app}) {
