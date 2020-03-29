@@ -15,14 +15,13 @@
                         </div>
                     </article>
 
-                    <article class="message">
+                    <article class="message" v-if="shippingMethodId">
                         <div class="message-body">
                             <h1 class="title is-5">
                                 Shipping
                             </h1>
                             <div class="select is-fullwidth">
-
-                                <select v-model="form.shipping_method_id">
+                                <select v-model="shippingMethodId">
                                     <option v-for="shipping in shippingMethods" :key="shipping.id" :value="shipping.id">
                                         {{ shipping.name }} ({{ shipping.price }})
                                     </option>
@@ -37,14 +36,16 @@
                                 Cart summary
                             </h1>
                             <CartOverview>
-                                <template slot="rows">
+                                <template slot="rows" v-if="shippingMethodId">
                                     <tr>
                                         <td></td>
                                         <td></td>
                                         <td class="has-text-weight-bold">
                                             Shipping
                                         </td>
-                                        <td>£0.00</td>
+                                        <td>
+                                            {{ shipping.price }}
+                                        </td>
                                         <td></td>
                                     </tr>
                                     <tr>
@@ -85,7 +86,7 @@
 
 <script>
 
-    import { mapGetters } from 'vuex';
+    import { mapGetters, mapActions } from 'vuex';
     import CartOverview from '@/components/cart/CartOverview';
     import ShippingAddress from '@/components/checkout/addresses/ShippingAddress';
 
@@ -95,8 +96,7 @@
             return {
                 addresses: [],
                 form: {
-                    address_id: null,
-                    shipping_method_id: null
+                    address_id: null
                 },
                 shippingMethods: []
             }
@@ -104,7 +104,13 @@
 
         watch: {
             'form.address_id' (addressId) {
-                this.getShippingMethodsForAddress(addressId);
+                this.getShippingMethodsForAddress(addressId).then(() => {
+                    this.setShipping(this.shippingMethods[0])
+                })
+            },
+
+            shippingMethodId () {
+                this.getCart()
             }
         },
 
@@ -114,10 +120,18 @@
         },
 
         methods: {
+
+            ...mapActions({
+                setShipping: 'cart/setShipping',
+                getCart: 'cart/getCart'
+            }),
+
             async getShippingMethodsForAddress (addressId) {
                 let response = await this.$axios.$get(`addresses/${addressId}/shipping`)
 
                 this.shippingMethods = response.data;
+
+                return response;
             }
         },
 
@@ -125,8 +139,20 @@
             ...mapGetters({
                 total: 'cart/total',
                 products: 'cart/products',
-                empty: 'cart/empty'
+                empty: 'cart/empty',
+                shipping: 'cart/shipping'
             }),
+
+            shippingMethodId: {
+                get () {
+                    return this.shipping ? this.shipping.id : '';
+                },
+                set(shippingMethodId) {
+                    this.setShipping(
+                        this.shippingMethods.find(s => s.id === shippingMethodId)
+                    )
+                }
+            }
         },
 
         async asyncData({app}) {

@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ac113cf3-cbdd-4263-bc7c-4b82ddae34e5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/checkout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/checkout/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/cart.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +34,20 @@
       <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/checkout/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+            <state relative-caret-position="449">
+              <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+              <folding>
+                <element signature="e#3397#3431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/cart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -42,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -66,7 +80,6 @@
         <option value="$PROJECT_DIR$/store/index.js" />
         <option value="$PROJECT_DIR$/layouts/partials/Navigation.vue" />
         <option value="$PROJECT_DIR$/components/cart/CartOverviewProduct.vue" />
-        <option value="$PROJECT_DIR$/store/cart.js" />
         <option value="$PROJECT_DIR$/pages/products/_slug.vue" />
         <option value="$PROJECT_DIR$/components/cart/CartOverView.vue" />
         <option value="$PROJECT_DIR$/pages/cart/index.vue" />
@@ -79,6 +92,7 @@
         <option value="$PROJECT_DIR$/components/checkout/addresses/ShippingAddressCreator.vue" />
         <option value="$PROJECT_DIR$/components/form/CountryDropdown.vue" />
         <option value="$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue" />
+        <option value="$PROJECT_DIR$/store/cart.js" />
         <option value="$PROJECT_DIR$/pages/checkout/index.vue" />
       </list>
     </option>
@@ -133,29 +147,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="checkout" type="462c0819:PsiDirectoryNode" />
               <item name="addresses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartclient" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartclient" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartclient" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cartclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cartclient" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="checkout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cartclient" type="b2602c69:ProjectViewProjectNode" />
@@ -234,12 +225,12 @@
       <workItem from="1585376087896" duration="1074000" />
       <workItem from="1585388429468" duration="6777000" />
       <workItem from="1585419831689" duration="1973000" />
-      <workItem from="1585458804553" duration="1408000" />
+      <workItem from="1585458804553" duration="4035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35012000" />
+    <option name="totallyTimeSpent" value="37639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="960" extended-state="0" />
@@ -514,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/products/_slug.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -608,14 +592,24 @@
     <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/checkout/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        <state relative-caret-position="449">
+          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+          <folding>
+            <element signature="e#3397#3431#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
