@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac113cf3-cbdd-4263-bc7c-4b82ddae34e5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/orders/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/checkout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/checkout/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/cart.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,33 +28,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/checkout/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
-              <folding>
-                <element signature="e#3397#3431#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="564">
+              <caret line="147" column="37" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/cart.js">
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/orders/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShippingAddress.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="130">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -85,7 +71,6 @@
         <option value="$PROJECT_DIR$/pages/cart/index.vue" />
         <option value="$PROJECT_DIR$/components/checkout/addresses/ShippingAddressSelector.vue" />
         <option value="$PROJECT_DIR$/middleware/redirectifGuest.js" />
-        <option value="$PROJECT_DIR$/pages/index.vue" />
         <option value="$PROJECT_DIR$/middleware/redirectifAuth.js" />
         <option value="$PROJECT_DIR$/pages/auth/signin.vue" />
         <option value="$PROJECT_DIR$/components/checkout/form/CountryDropdown.vue" />
@@ -93,6 +78,8 @@
         <option value="$PROJECT_DIR$/components/form/CountryDropdown.vue" />
         <option value="$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue" />
         <option value="$PROJECT_DIR$/store/cart.js" />
+        <option value="$PROJECT_DIR$/pages/index.vue" />
+        <option value="$PROJECT_DIR$/pages/orders/index.vue" />
         <option value="$PROJECT_DIR$/pages/checkout/index.vue" />
       </list>
     </option>
@@ -114,8 +101,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1536" />
-    <option name="height" value="960" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,13 +140,29 @@
             <path>
               <item name="cartclient" type="b2602c69:ProjectViewProjectNode" />
               <item name="cartclient" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cartclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cartclient" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="checkout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cartclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cartclient" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="orders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cartclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cartclient" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,12 +230,14 @@
       <workItem from="1585376087896" duration="1074000" />
       <workItem from="1585388429468" duration="6777000" />
       <workItem from="1585419831689" duration="1973000" />
-      <workItem from="1585458804553" duration="4035000" />
+      <workItem from="1585458804553" duration="4308000" />
+      <workItem from="1585474177719" duration="15000" />
+      <workItem from="1585890374953" duration="2250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37639000" />
+    <option name="totallyTimeSpent" value="40177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="960" extended-state="0" />
@@ -265,13 +272,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/layouts/partials/Navigation.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="93" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -477,13 +477,6 @@
     <entry file="file://$PROJECT_DIR$/.nuxt/router.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuxt.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/cart/CartOverviewProduct.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -568,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/form/CountryDropdown.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -591,25 +577,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="775">
           <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuxt.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/store/cart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="-525">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/orders/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/checkout/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
-          <folding>
-            <element signature="e#3397#3431#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="564">
+          <caret line="147" column="37" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
         </state>
       </provider>
     </entry>
