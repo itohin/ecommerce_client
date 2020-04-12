@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac113cf3-cbdd-4263-bc7c-4b82ddae34e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/components/orders/statuses/OrderStatus-payment_failed.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/orders/statuses/OrderStatus-pending.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/checkout/paymentMethods/PaymentMethodSelector.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/checkout/paymentMethods/PaymentMethods.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/orders/Order.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/orders/Order.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/checkout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/checkout/index.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,46 +30,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/orders/index.vue">
+      <file leaf-file-name="ShippingAddress.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="156">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Order.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/orders/Order.vue">
+      <file leaf-file-name="PaymentMethods.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/checkout/paymentMethods/PaymentMethods.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="35" column="85" lean-forward="true" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="85" />
+            <state relative-caret-position="260">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
-                <element signature="e#895#990#0" expanded="true" />
+                <element signature="e#1802#2221#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderStatus-payment_failed.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/orders/statuses/OrderStatus-payment_failed.vue">
+      <file leaf-file-name="PaymentMethodSelector.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/checkout/paymentMethods/PaymentMethodSelector.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="51" />
+            <state relative-caret-position="234">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderStatus-pending.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/orders/statuses/OrderStatus-pending.vue">
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/checkout/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="2812">
+              <caret line="109" column="30" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="30" />
+              <folding>
+                <element signature="e#3939#3985#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>selectedPaymentMethod</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,12 +110,14 @@
         <option value="$PROJECT_DIR$/store/alert.js" />
         <option value="$PROJECT_DIR$/components/cart/CartOverviewProduct.vue" />
         <option value="$PROJECT_DIR$/components/products/Product.vue" />
-        <option value="$PROJECT_DIR$/pages/checkout/index.vue" />
         <option value="$PROJECT_DIR$/layouts/partials/Navigation.vue" />
         <option value="$PROJECT_DIR$/pages/orders/index.vue" />
         <option value="$PROJECT_DIR$/components/orders/Order.vue" />
         <option value="$PROJECT_DIR$/components/orders/statuses/OrderStatus-payment_failed.vue" />
         <option value="$PROJECT_DIR$/components/orders/statuses/OrderStatus-pending.vue" />
+        <option value="$PROJECT_DIR$/pages/checkout/index.vue" />
+        <option value="$PROJECT_DIR$/components/checkout/paymentMethods/PaymentMethods.vue" />
+        <option value="$PROJECT_DIR$/components/checkout/paymentMethods/PaymentMethodSelector.vue" />
       </list>
     </option>
   </component>
@@ -287,12 +297,12 @@
       <workItem from="1585927053757" duration="178000" />
       <workItem from="1585927238385" duration="9000" />
       <workItem from="1585927263117" duration="540000" />
-      <workItem from="1586679469267" duration="3755000" />
+      <workItem from="1586679469267" duration="8345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47711000" />
+    <option name="totallyTimeSpent" value="52301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="960" extended-state="0" />
@@ -349,41 +359,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nuxt.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/default.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/default.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -540,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddressSelector.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/middleware/redirectifGuest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -634,20 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/checkout/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1586">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/markup (2)/orders.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -693,10 +647,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/laravel-nuxt-e-commerce/cart/app/Models/PaymentMethod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#30#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/laravel-nuxt-e-commerce/cart/app/Models/Traits/CanBeDefault.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/laravel-nuxt-e-commerce/cart/tests/Unit/Models/PaymentMethods/PaymentMethodTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="35" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/orders/statuses/OrderStatus-pending.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/checkout/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2812">
+          <caret line="109" column="30" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="30" />
+          <folding>
+            <element signature="e#3939#3985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddressSelector.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="42" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkout/addresses/ShippingAddress.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkout/paymentMethods/PaymentMethods.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#1802#2221#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkout/paymentMethods/PaymentMethodSelector.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
